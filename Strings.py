@@ -17,6 +17,7 @@ print(type(greeting))
 print(type(age))
 
 age_in_words = "2 years"
-# print(name + " is " + age + " years old")
+print(name + f" is {age} years old")
 print(type(age))
-print("My git is working now!")
+
+print(f"Pi is approximately {22 / 7:12.50f}")
